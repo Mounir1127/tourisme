@@ -1,20 +1,32 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactCompiler: true,
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
+        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: 'upload.wikimedia.org',
+        pathname: '/**',
       },
       {
         protocol: 'https',
         hostname: '*.wikimedia.org',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'tile.openstreetmap.org',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.tile.openstreetmap.org',
+        pathname: '/**',
       },
     ],
   },

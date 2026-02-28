@@ -3,6 +3,8 @@ import PlaceCard from "../components/PlaceCard";
 import AIExplorer from "../components/AIExplorer";
 import { ArrowRight, Compass, Shield, Zap } from "lucide-react";
 import MapWrapper from "../components/MapWrapper";
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/app/api/auth/[...nextauth]/route';
 
 const featuredPlaces = [
   {
@@ -37,28 +39,24 @@ const featuredPlaces = [
   }
 ];
 
-const features = [
-  {
-    icon: <Compass className="w-6 h-6 text-primary" />,
-    title: "AI Discovery",
-    description: "Our intelligent engine suggests hidden gems tailored to your unique travel style."
-  },
-  {
-    icon: <Shield className="w-6 h-6 text-primary" />,
-    title: "Secure Booking",
-    description: "Book hotels, flights, and activities with complete peace of mind and 24/7 support."
-  },
-  {
-    icon: <Zap className="w-6 h-6 text-primary" />,
-    title: "Fast Planning",
-    description: "Create optimized itineraries in seconds with our advanced distance-time algorithms."
-  }
-];
+export default async function Home() {
+  const session = await getServerSession(authOptions);
 
-export default function Home() {
   return (
     <main>
       <Hero />
+
+      {/* Welcome Section for Auth */}
+      {session && (
+        <section className="container mx-auto px-6 pt-10">
+          <div className="glass p-6 rounded-2xl border-primary/20 flex items-center justify-between">
+            <div>
+              <h2 className="text-xl font-bold">Resalut, {session.user?.name}!</h2>
+              <p className="text-foreground/60 text-sm">Prêt pour votre prochaine aventure tunisienne ?</p>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* AI Recommendations Section */}
       <AIExplorer />
@@ -96,37 +94,6 @@ export default function Home() {
           </div>
         </div>
         <MapWrapper lat={35.8256} lon={10.6084} radius={2000} />
-      </section>
-
-      {/* Features Multi-language Promo */}
-      <section className="bg-foreground/[0.02] py-24 border-y border-border/50">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-[2rem] premium-gradient/10 flex items-center justify-center text-primary mb-6 border border-primary/20">
-                <Compass className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Smart Itineraries</h3>
-              <p className="text-foreground/40 text-sm">Save time with AI-optimized routes and schedules.</p>
-            </div>
-
-            <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-[2rem] premium-gradient/10 flex items-center justify-center text-primary mb-6 border border-primary/20">
-                <Shield className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Safe Journeys</h3>
-              <p className="text-foreground/40 text-sm">24/7 support and verified recommendations.</p>
-            </div>
-
-            <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 rounded-[2rem] premium-gradient/10 flex items-center justify-center text-primary mb-6 border border-primary/20">
-                <Zap className="w-8 h-8" />
-              </div>
-              <h3 className="text-xl font-bold mb-2">Multilingual Support</h3>
-              <p className="text-foreground/40 text-sm">Real-time translation for global accessibility.</p>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* Call to Action */}
