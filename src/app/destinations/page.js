@@ -113,7 +113,7 @@ const allPlaces = [
         price: 20,
         category: "Monument",
         description: "Home to one of the world's most impressive collections of Roman mosaics, housed in a magnificent former Husainid palace.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Le_Bardo_%28Tunisie%29%2C_mus%C3%A9e_national.jpg/900px-Le_Bardo_%28Tunisie%29%2C_mus%C3%A9e_national.jpg"
+        image: "/images/destinations/bardo.jpg"
     },
     {
         id: 12,
@@ -153,7 +153,7 @@ const allPlaces = [
         price: 50,
         category: "Nature",
         description: "The largest salt lake in the Sahara, creating stunning mirages and otherworldly landscapes at the edge of the desert.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chott_el_Djerid_001.jpg/960px-Chott_el_Djerid_001.jpg"
+        image: "/images/destinations/chott.jpg"
     },
     {
         id: 16,
@@ -183,9 +183,10 @@ const allPlaces = [
         price: 70,
         category: "Adventure",
         description: "A rugged and beautiful peninsula offering dramatic cliffs, pristine coves, ancient ruins at Kerkouane and lush agricultural valleys.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kerkouane.JPG/960px-Kerkouane.JPG"
+        image: "/images/destinations/cap_bon.jpg"
     }
 ];
+
 
 
 const categories = ["All", "Monument", "Resort", "Nature", "History", "Adventure"];
