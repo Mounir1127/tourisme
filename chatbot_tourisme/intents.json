@@ -1,0 +1,57 @@
+{
+    "intents": [
+        {
+            "tag": "tourist_place",
+            "patterns": [
+                "Que visiter en Tunisie ?",
+                "Lieux touristiques",
+                "Sites historiques",
+                "Que voir à Tunis ?",
+                "Endroits à visiter"
+            ],
+            "responses": [
+                "Vous pouvez visiter l’Amphithéâtre d’El Jem et la Médina de Tunis.",
+                "Je recommande le Sahara tunisien et Sidi Bou Saïd."
+            ]
+        },
+        {
+            "tag": "hotel",
+            "patterns": [
+                "Je cherche un hôtel",
+                "Hôtel pas cher",
+                "Où dormir ?",
+                "Proposer un hôtel à Sousse"
+            ],
+            "responses": [
+                "Je peux vous proposer des hôtels selon votre budget.",
+                "À Sousse, plusieurs hôtels sont disponibles près de la plage."
+            ]
+        },
+        {
+            "tag": "restaurant",
+            "patterns": [
+                "Restaurant à proximité",
+                "Où manger ?",
+                "Restaurant tunisien",
+                "Bon restaurant"
+            ],
+            "responses": [
+                "Essayez un restaurant traditionnel tunisien.",
+                "Je peux vous recommander un restaurant selon votre ville."
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Bonjour",
+                "Salut",
+                "Hello",
+                "Bonsoir"
+            ],
+            "responses": [
+                "Bonjour 👋 Comment puis-je vous aider ?",
+                "Salut ! Je suis votre assistant touristique."
+            ]
+        }
+    ]
+}
