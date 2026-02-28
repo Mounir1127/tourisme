@@ -63,7 +63,7 @@ const allPlaces = [
         price: 80,
         category: "Resort",
         description: "A picturesque coastal town famous for its blue and white buildings and stunning views of the Mediterranean.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Sidi_Chebaan.jpg/960px-Sidi_Chebaan.jpg"
+        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=1000&auto=format&fit=crop"
     }
 ];
 
