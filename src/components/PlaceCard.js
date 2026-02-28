@@ -6,7 +6,7 @@ export default function PlaceCard({ place }) {
         <div className="group relative glass rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500 border border-border/50 bg-card">
             <div className="relative h-64 w-full overflow-hidden">
                 <Image
-                    src={place.image || "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=1000&auto=format&fit=crop"}
+                    src={place.image || "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/El_Djem_Amphitheatre.jpg/1200px-El_Djem_Amphitheatre.jpg"}
                     alt={place.name}
                     fill
                     className="object-cover transition-transform duration-700 group-hover:scale-110"

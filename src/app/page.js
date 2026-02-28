@@ -13,7 +13,7 @@ const featuredPlaces = [
     price: 35,
     category: "Monument",
     description: "One of the most impressive Roman remains in Africa, famous for its massive and well-preserved amphitheater.",
-    image: "https://images.unsplash.com/photo-1621217646702-0eeb7ccecf6c?q=80&w=1000&auto=format&fit=crop"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/El_Djem_Amphitheatre.jpg/1200px-El_Djem_Amphitheatre.jpg"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const featuredPlaces = [
     price: 150,
     category: "Resort",
     description: "A beautiful Mediterranean island known for its white sandy beaches, traditional architecture, and vibrant culture.",
-    image: "https://images.unsplash.com/photo-1590723820257-23190be6107b?q=80&w=1000&auto=format&fit=crop"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Djerba_beach.jpg/1200px-Djerba_beach.jpg"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const featuredPlaces = [
     price: 120,
     category: "Adventure",
     description: "Experience the magic of the vast Sahara Desert with camel treks, 4x4 dunes bashing, and stargazing.",
-    image: "https://images.unsplash.com/photo-1588691880918-028a2b53e77f?q=80&w=1000&auto=format&fit=crop"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Sahara_Desert_Libya_2.jpg/1200px-Sahara_Desert_Libya_2.jpg"
   }
 ];
 
