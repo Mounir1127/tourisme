@@ -7,63 +7,63 @@ import { Search, Filter, SlidersHorizontal } from "lucide-react";
 const allPlaces = [
     {
         id: 1,
-        name: "Eiffel Tower",
-        location: "Paris, France",
+        name: "Amphitheatre of El Jem",
+        location: "Mahdia, Tunisia",
         rating: 4.9,
-        price: 120,
+        price: 35,
         category: "Monument",
-        description: "The iconic iron lady of Paris, offering breathtaking panoramic views of the city of lights.",
-        image: "https://images.unsplash.com/photo-1511739001486-6bfe10ce765f?q=80&w=1000&auto=format&fit=crop"
+        description: "One of the most impressive Roman remains in Africa, famous for its massive and well-preserved amphitheater.",
+        image: "https://images.unsplash.com/photo-1621217646702-0eeb7ccecf6c?q=80&w=1000&auto=format&fit=crop"
     },
     {
         id: 2,
-        name: "Santorini Oia",
-        location: "Cyclades, Greece",
+        name: "Djerba Island",
+        location: "Medenine, Tunisia",
         rating: 4.8,
-        price: 350,
+        price: 150,
         category: "Resort",
-        description: "Stunning blue-domed churches and whitewashed houses overlooking the crystal clear Aegean Sea.",
-        image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1000&auto=format&fit=crop"
+        description: "A beautiful Mediterranean island known for its white sandy beaches, traditional architecture, and vibrant culture.",
+        image: "https://images.unsplash.com/photo-1590723820257-23190be6107b?q=80&w=1000&auto=format&fit=crop"
     },
     {
         id: 3,
-        name: "Mount Fuji",
-        location: "Honshu, Japan",
-        rating: 5.0,
-        price: 200,
+        name: "Ichkeul National Park",
+        location: "Bizerte, Tunisia",
+        rating: 4.7,
+        price: 20,
         category: "Nature",
-        description: "Japan's highest peak and an immortal symbol of Japanese culture and natural beauty.",
+        description: "A UNESCO World Heritage site, offering incredible bird watching and untouched natural beauty surrounding the Ichkeul Lake.",
         image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1000&auto=format&fit=crop"
     },
     {
         id: 4,
-        name: "Colosseum",
-        location: "Rome, Italy",
-        rating: 4.7,
-        price: 80,
-        category: "Monument",
-        description: "The largest ancient amphitheatre ever built, standing as a testament to Roman engineering.",
+        name: "Ruins of Carthage",
+        location: "Tunis, Tunisia",
+        rating: 4.8,
+        price: 45,
+        category: "History",
+        description: "Explore the ancient remains of the once-powerful Carthaginian Empire overlooking the Mediterranean Sea.",
         image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1000&auto=format&fit=crop"
     },
     {
         id: 5,
-        name: "Machu Picchu",
-        location: "Cusco, Peru",
-        rating: 4.9,
-        price: 450,
-        category: "History",
-        description: "An Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley.",
-        image: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=1000&auto=format&fit=crop"
+        name: "Sahara Desert Safari",
+        location: "Douz, Tunisia",
+        rating: 5.0,
+        price: 120,
+        category: "Adventure",
+        description: "Experience the magic of the vast Sahara Desert with camel treks, 4x4 dunes bashing, and stargazing.",
+        image: "https://images.unsplash.com/photo-1588691880918-028a2b53e77f?q=80&w=1000&auto=format&fit=crop"
     },
     {
         id: 6,
-        name: "Great Barrier Reef",
-        location: "Queensland, Australia",
-        rating: 4.8,
-        price: 500,
-        category: "Nature",
-        description: "The world's largest coral reef system, composed of over 2,900 individual reefs.",
-        image: "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?q=80&w=1000&auto=format&fit=crop"
+        name: "Sidi Bou Said",
+        location: "Tunis, Tunisia",
+        rating: 4.9,
+        price: 80,
+        category: "Resort",
+        description: "A picturesque coastal town famous for its blue and white buildings and stunning views of the Mediterranean.",
+        image: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=1000&auto=format&fit=crop"
     }
 ];
 
@@ -112,8 +112,8 @@ export default function DestinationsPage() {
                             key={cat}
                             onClick={() => setSelectedCategory(cat)}
                             className={`px-6 py-3 rounded-2xl text-sm font-semibold transition-all shrink-0 ${selectedCategory === cat
-                                    ? "premium-gradient text-white shadow-lg"
-                                    : "glass border border-border/50 text-foreground/60 hover:border-primary/50"
+                                ? "premium-gradient text-white shadow-lg"
+                                : "glass border border-border/50 text-foreground/60 hover:border-primary/50"
                                 }`}
                         >
                             {cat}

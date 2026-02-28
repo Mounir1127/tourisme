@@ -7,33 +7,33 @@ import MapWrapper from "../components/MapWrapper";
 const featuredPlaces = [
   {
     id: 1,
-    name: "Eiffel Tower",
-    location: "Paris, France",
+    name: "Amphitheatre of El Jem",
+    location: "Mahdia, Tunisia",
     rating: 4.9,
-    price: 120,
+    price: 35,
     category: "Monument",
-    description: "The iconic iron lady of Paris, offering breathtaking panoramic views of the city of lights.",
-    image: "https://images.unsplash.com/photo-1511739001486-6bfe10ce765f?q=80&w=1000&auto=format&fit=crop"
+    description: "One of the most impressive Roman remains in Africa, famous for its massive and well-preserved amphitheater.",
+    image: "https://images.unsplash.com/photo-1621217646702-0eeb7ccecf6c?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 2,
-    name: "Santorini Oia",
-    location: "Cyclades, Greece",
+    name: "Djerba Island",
+    location: "Medenine, Tunisia",
     rating: 4.8,
-    price: 350,
+    price: 150,
     category: "Resort",
-    description: "Stunning blue-domed churches and whitewashed houses overlooking the crystal clear Aegean Sea.",
-    image: "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?q=80&w=1000&auto=format&fit=crop"
+    description: "A beautiful Mediterranean island known for its white sandy beaches, traditional architecture, and vibrant culture.",
+    image: "https://images.unsplash.com/photo-1590723820257-23190be6107b?q=80&w=1000&auto=format&fit=crop"
   },
   {
     id: 3,
-    name: "Mount Fuji",
-    location: "Honshu, Japan",
+    name: "Sahara Desert Safari",
+    location: "Douz, Tunisia",
     rating: 5.0,
-    price: 200,
-    category: "Nature",
-    description: "Japan's highest peak and an immortal symbol of Japanese culture and natural beauty.",
-    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?q=80&w=1000&auto=format&fit=crop"
+    price: 120,
+    category: "Adventure",
+    description: "Experience the magic of the vast Sahara Desert with camel treks, 4x4 dunes bashing, and stargazing.",
+    image: "https://images.unsplash.com/photo-1588691880918-028a2b53e77f?q=80&w=1000&auto=format&fit=crop"
   }
 ];
 
