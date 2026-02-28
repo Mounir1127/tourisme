@@ -13,7 +13,7 @@ const allPlaces = [
         price: 35,
         category: "Monument",
         description: "One of the most impressive Roman remains in Africa, a UNESCO World Heritage monument that once hosted 35,000 spectators.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Anfiteatro%2C_El_Jem%2C_T%C3%BAnez%2C_2016-09-04%2C_DD_55-66_HDR_PAN.jpg/960px-Anfiteatro%2C_El_Jem%2C_T%C3%BAnez%2C_2016-09-04%2C_DD_55-66_HDR_PAN.jpg"
+        image: "/images/destinations/el_jem.png"
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const allPlaces = [
         price: 150,
         category: "Resort",
         description: "A beautiful Mediterranean island known for its white sandy beaches, traditional architecture, and vibrant Berber and Jewish cultural heritage.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Djerba_Island.jpeg/960px-Djerba_Island.jpeg"
+        image: "/images/destinations/djerba.png"
     },
     {
         id: 3,
@@ -33,7 +33,7 @@ const allPlaces = [
         price: 20,
         category: "Nature",
         description: "A UNESCO World Heritage site, offering incredible bird watching for migratory flamingos and untouched wetland natural beauty.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Vue_matinale_de_la_montagne_dominant_le_parc_Ichkeul.jpg/960px-Vue_matinale_de_la_montagne_dominant_le_parc_Ichkeul.jpg"
+        image: "/images/destinations/ichkeul.png"
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const allPlaces = [
         price: 45,
         category: "History",
         description: "Explore the ancient remains of the once-powerful Carthaginian Empire, a UNESCO World Heritage site overlooking the Mediterranean Sea.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Montage_ville_de_Carthage.png/960px-Montage_ville_de_Carthage.png"
+        image: "/images/destinations/carthage.png"
     },
     {
         id: 5,
@@ -53,7 +53,7 @@ const allPlaces = [
         price: 120,
         category: "Adventure",
         description: "Experience the magic of the vast Sahara Desert with camel treks, 4x4 dunes bashing, and unforgettable stargazing nights.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Sahara_real_color.jpg/960px-Sahara_real_color.jpg"
+        image: "/images/destinations/sahara.png"
     },
     {
         id: 6,
@@ -63,7 +63,7 @@ const allPlaces = [
         price: 80,
         category: "Resort",
         description: "A picturesque coastal village perched on cliffs, famous for its iconic blue and white buildings and stunning Mediterranean views.",
-        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?q=80&w=1000&auto=format&fit=crop"
+        image: "/images/destinations/sidi_bou_said.png"
     },
     {
         id: 7,
@@ -113,7 +113,7 @@ const allPlaces = [
         price: 20,
         category: "Monument",
         description: "Home to one of the world's most impressive collections of Roman mosaics, housed in a magnificent former Husainid palace.",
-        image: "https://images.unsplash.com/photo-1580477667995-2b94f01c9516?q=80&w=1000&auto=format&fit=crop"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Le_Bardo_%28Tunisie%29%2C_mus%C3%A9e_national.jpg/900px-Le_Bardo_%28Tunisie%29%2C_mus%C3%A9e_national.jpg"
     },
     {
         id: 12,
@@ -153,7 +153,7 @@ const allPlaces = [
         price: 50,
         category: "Nature",
         description: "The largest salt lake in the Sahara, creating stunning mirages and otherworldly landscapes at the edge of the desert.",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Chott_Djerid_003.jpg/960px-Chott_Djerid_003.jpg"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Chott_el_Djerid_001.jpg/960px-Chott_el_Djerid_001.jpg"
     },
     {
         id: 16,
@@ -183,9 +183,10 @@ const allPlaces = [
         price: 70,
         category: "Adventure",
         description: "A rugged and beautiful peninsula offering dramatic cliffs, pristine coves, ancient ruins at Kerkouane and lush agricultural valleys.",
-        image: "https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?q=80&w=1000&auto=format&fit=crop"
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kerkouane.JPG/960px-Kerkouane.JPG"
     }
 ];
+
 
 const categories = ["All", "Monument", "Resort", "Nature", "History", "Adventure"];
 
